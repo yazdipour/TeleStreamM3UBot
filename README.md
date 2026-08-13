@@ -1,13 +1,9 @@
 # TeleStreamM3UBot
 
-Watches a private Telegram channel ("Move to Jellyfin") for posts containing
+Watches a private Telegram channel for posts containing
 HTTP(S) stream URLs, and serves them as a live-updating M3U playlist that
 Jellyfin can add as an M3U/IPTV tuner. No media is ever downloaded — only the
 URL and a derived title are stored.
-
-```
-"Move to Jellyfin" channel -> TeleStreamM3UBot -> playlist.m3u -> Jellyfin -> stream URL directly
-```
 
 ## How it works
 
